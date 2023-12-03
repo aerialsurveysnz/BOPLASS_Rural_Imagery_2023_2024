@@ -92,7 +92,7 @@
           const coordinates = featurePCentre.geometry.coordinates.slice();
           const description = "<span style='color: #7FBA00;font-size: 14px;'><b>" + featurePCentre.properties.Description + "</b></br>" +
                               "<span style='color: black;'><b>Project Code: </b>" + featurePCentre.properties.Project + "</br>" +
-                              "<b>Survey Type: </b>" + featureProject.properties.Survey_Typ + "</br>" +
+                              "<b>Survey Type: </b>" + featurePCentre.properties.Survey_Typ + "</br>" +
                               "<b>Imagery GSD: </b>" + featurePCentre.properties.OrthoGSD_m + "</br>" +
                               //"<b>Point Density: </b>" + featurePCentre.properties.Point_Dens + "</br>" +
                               "<b>Area: </b>" + (featurePCentre.properties.Project_Area).toLocaleString(undefined, { minimumFractionDigits: 0, maximumFractionDigits: 0 })+ " km²</br>" ;
