@@ -3,6 +3,6 @@
 "name": "BOPLASS_2023_2024 Imagery Centres",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "Project": "PGRM3162", "Company_Name": "BOPLASS Ltd", "SN_No": "SN14322", "Description": "BOPLASS Rural - 2024 16404 ft Flying & Orthos", "OrthoGSD_m": 0.2, "PointDensity_(points/m2)": null }, "geometry": { "type": "Point", "coordinates": [ 176.326444783267732, -38.223036680080796 ] } }
+{ "type": "Feature", "properties": { "Project": "PGRM3162", "Company_Name": "BOPLASS Ltd", "SN_No": "SN14322", "Description": "BOPLASS Rural - 2024 16404 ft Flying & Orthos", "OrthoGSD_m": 0.2, "PointDensity_(points/m2)": null, "Project_Area": 5675.89 }, "geometry": { "type": "Point", "coordinates": [ 176.326444783267732, -38.223036680080796 ] } }
 ]
 }
